@@ -206,3 +206,18 @@ input[type='radio'] {
         margin: 2.5rem 0 .7rem 0;
     }
 }
+
+
+@media (max-width:646px) {
+    #result_btn{
+        font-size: 1rem!important;
+        width: 50%;
+    }
+}
+
+@media (max-width:300px) {
+    #result_btn{
+        font-size: 1rem!important;
+        width: 90%;
+    }
+}
