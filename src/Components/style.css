@@ -1,223 +1,205 @@
 .bg {
-    background: url('../Images/img1.jpg');
-    width: 100% !important;
-    height: 100% !important;
-    background-attachment: fixed;
+  background: url("../Images/img1.jpg");
+  width: 100% !important;
+  height: 100% !important;
+  background-attachment: fixed;
 }
 
 h2 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 200!important;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200 !important;
 }
 
 .bg_cntnr {
-    background: rgba(0, 0, 0, .4);
-    border-radius: 8px;
-    box-shadow: 3px 3px 10px #fd7e14;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  box-shadow: 3px 3px 10px #fd7e14;
 }
 
 .bg_cntnr h2 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    font-size: 4rem;
-    padding-top: 3rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  padding-top: 3rem;
 }
 
-
 h3 {
-    margin: 5rem 0 1rem 0 !important;
-    font-family: 'Maven Pro', sans-serif;
+  margin: 5rem 0 1rem 0 !important;
+  font-family: "Maven Pro", sans-serif;
 }
 
 .bg_cntnr h5 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
-    padding-bottom: 1rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  padding-bottom: 1rem;
 }
 
 button {
-    font-size: 1.7rem !important;
-    font-family: 'Raleway';
-    width: 20%;
-
-
+  font-size: 1.7rem !important;
+  font-family: "Raleway";
+  width: 20%;
 }
 
 p {
-    border-radius: 5px;
-    display: inline;
-    font-size: 1.4rem;
-    padding: 0 3rem;
-    background: rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  display: inline;
+  font-size: 1.4rem;
+  padding: 0 3rem;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 input {
-    font-size: 2rem !important;
+  font-size: 2rem !important;
 }
 
-input[type='radio'] {
-    position: relative;
-    top: -.3rem;
-    margin-bottom: 5px;
-    width: 1.6rem;
-    height: 1.6rem;
+input[type="radio"] {
+  position: relative;
+  top: -0.3rem;
+  margin-bottom: 5px;
+  width: 1.6rem;
+  height: 1.6rem;
 }
 
 .submitbtn {
-    font-size: 1rem !important;
+  font-size: 1rem !important;
+  width: auto !important;
+  margin-left: 48% !important;
+}
+
+@media (max-width: 1400px) {
+  p {
+    font-size: 1rem;
+  }
+
+  input[type="radio"] {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  p {
+    font-size: 0.9rem;
+  }
+
+  input[type="radio"] {
+    top: -0.2rem;
+    width: 1rem;
+    height: 1rem;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  .quizbtn {
+    font-size: 1.3rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .quizbtn {
+    font-size: 1.1rem !important;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  input[type="radio"] {
+    top: -0.2rem;
+    width: 1rem;
+    height: 1rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    margin: 4rem 0 0.7rem 0;
+  }
+
+  .submitbtn {
+    font-size: 0.8rem !important;
     width: auto !important;
-    margin-left: 48% !important;
+    margin-left: 45% !important;
+  }
 }
 
+@media (max-width: 576px) {
+  h2 {
+    font-size: 2rem !important;
+  }
 
+  h5 {
+    font-size: 1rem !important;
+  }
 
-@media (max-width:1400px) {
+  .quizbtn {
+    font-size: 0.7rem !important;
+    padding: 0 !important;
+  }
 
-    p {
-        font-size: 1rem;
-    }
+  p {
+    font-size: 0.7rem;
+  }
 
-    input[type='radio'] {
-        width: 1rem;
-        height: 1rem;
-    }
+  input[type="radio"] {
+    top: -0.2rem;
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+
+  h3 {
+    font-size: 0.95rem;
+    margin: 3rem 0 0.7rem 0;
+  }
+
+  .submitbtn {
+    font-size: 0.7rem !important;
+    width: auto !important;
+    margin-left: 43% !important;
+  }
 }
 
+@media (max-width: 394px) {
+  h2 {
+    font-size: 1.3rem !important;
+  }
 
-@media (max-width:992px) {
-    p {
-        font-size: .9rem;
-    }
+  h5 {
+    font-size: 0.8rem !important;
+  }
 
-    input[type='radio'] {
-        top: -.2rem;
-        width: 1rem;
-        height: 1rem;
-    }
+  .quizbtn {
+    font-size: 0.6rem !important;
+    padding: 0 !important;
+  }
 
-    h3 {
-        font-size: 1.3rem;
-    }
+  p {
+    font-size: 0.6rem;
+  }
 
-    .quizbtn {
-        font-size: 1.3rem !important;
-    }
+  input[type="radio"] {
+    top: -0.2rem;
+    width: 0.6rem;
+    height: 0.6rem;
+  }
+
+  h3 {
+    font-size: 0.85rem;
+    margin: 2.5rem 0 0.7rem 0;
+  }
 }
 
-
-
-@media (max-width:768px) {
-    .quizbtn {
-        font-size: 1.1rem !important;
-    }
-
-    p {
-        font-size: .8rem;
-    }
-
-    input[type='radio'] {
-        top: -.2rem;
-        width: 1rem;
-        height: 1rem;
-    }
-
-    h3 {
-        font-size: 1.1rem;
-        margin: 4rem 0 .7rem 0;
-    }
-
-    .submitbtn {
-        font-size: .8rem !important;
-        width: auto !important;
-        margin-left: 45% !important;
-    }
+@media (max-width: 646px) {
+  #result_btn {
+    font-size: 1rem !important;
+    width: 50%;
+  }
 }
 
-
-
-
-
-
-@media (max-width:576px) {
-    h2 {
-        font-size: 2rem !important;
-    }
-
-    h5 {
-        font-size: 1rem !important;
-    }
-
-    .quizbtn {
-        font-size: .7rem !important;
-        padding: 0 !important;
-    }
-
-    p {
-        font-size: .7rem;
-    }
-
-    input[type='radio'] {
-        top: -.2rem;
-        width: .7rem;
-        height: .7rem;
-    }
-
-    h3 {
-        font-size: .95rem;
-        margin: 3rem 0 .7rem 0;
-    }
-
-    .submitbtn {
-        font-size: .7rem !important;
-        width: auto !important;
-        margin-left: 43% !important;
-    }
-}
-
-
-
-
-@media (max-width:394px) {
-    h2 {
-        font-size: 1.3rem !important;
-    }
-
-    h5 {
-        font-size: .8rem !important;
-    }
-
-    .quizbtn {
-        font-size: .6rem !important;
-        padding: 0 !important;
-    }
-
-    p {
-        font-size: .6rem;
-    }
-
-    input[type='radio'] {
-        top: -.2rem;
-        width: .6rem;
-        height: .6rem;
-    }
-
-    h3 {
-        font-size: .85rem;
-        margin: 2.5rem 0 .7rem 0;
-    }
-}
-
-
-@media (max-width:646px) {
-    #result_btn{
-        font-size: 1rem!important;
-        width: 50%;
-    }
-}
-
-@media (max-width:300px) {
-    #result_btn{
-        font-size: 1rem!important;
-        width: 90%;
-    }
+@media (max-width: 300px) {
+  #result_btn {
+    font-size: 1rem !important;
+    width: 90%;
+  }
 }
